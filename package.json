@@ -17,6 +17,10 @@
     "email": "nhattq.coding@gmail.com",
     "url": "https://github.com/techmely"
   },
+  "scripts": {
+    "dev": "dotenvx run -- bun run --hot index.ts",
+    "start": "bun --env-file=.env.decrypted index.ts"
+  },
   "dependencies": {
     "@aws-sdk/client-s3": "3.609.0",
     "@aws-sdk/s3-request-presigner": "3.609.0",
