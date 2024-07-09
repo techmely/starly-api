@@ -19,7 +19,8 @@
   },
   "scripts": {
     "dev": "dotenvx run -- bun run --hot index.ts",
-    "start": "bun --env-file=.env.decrypted index.ts"
+    "start": "bun --env-file=.env.decrypted index.ts",
+    "prepare": "husky"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.609.0",
@@ -51,6 +52,7 @@
     "@types/bun": "1.1.6",
     "@types/pg": "8.11.6",
     "@vitest/coverage-v8": "1.6.0",
+    "husky": "9.0.11",
     "tsarch": "5.4.0",
     "vitest": "1.6.0"
   }
