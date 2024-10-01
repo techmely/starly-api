@@ -51,7 +51,7 @@
     "@techmely/types": "1.9.0",
     "@types/bun": "1.1.6",
     "@types/pg": "8.11.6",
-    "@vitest/coverage-v8": "2.0.5",
+    "@vitest/coverage-v8": "2.1.1",
     "husky": "9.1.4",
     "tsarch": "5.4.0",
     "vitest": "2.0.5"
